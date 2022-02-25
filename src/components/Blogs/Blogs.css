@@ -1,0 +1,51 @@
+/* .nav_tags > .tags_el {
+    display: flex;
+    flex-direction: row;
+    background-color: #2c394b;
+    padding: 3px 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin-top: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.9rem;
+} */
+
+/* .active {
+    background-color: rgb(247, 108, 108);
+} */
+
+.loading_el {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.nav_tags {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.8rem;
+}
+.tags_el > p {
+    padding: 0.8rem 1rem;
+    margin: 1rem 0.6rem;
+    /* width: 100%; */
+    border: none;
+    background-color: #072227;
+    color: #fff;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.tags_el > p:hover {
+    background-color: #2b4246;
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+}
